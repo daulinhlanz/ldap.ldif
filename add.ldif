@@ -1,0 +1,77 @@
+# usuarios, daulin.com
+dn: ou=usuarios,dc=daulin,dc=com
+objectClass: organizationalUnit
+ou: usuarios
+
+# personas, daulin.com
+dn: ou=personas,dc=daulin,dc=com
+objectClass: organizationalUnit
+ou: personas
+
+# robots, daulin.com
+dn: ou=robots,dc=daulin,dc=com
+objectClass: organizationalUnit
+ou: robots
+
+#PERSONAS
+
+# pedro, personas, daulin.com
+dn: uid=Pedro Francisco,ou=personas,dc=daulin,dc=com
+objectClass: inetOrgPerson
+uid: Pedro Francisco
+sn: Duque Duque
+cn: Pedro
+l: España
+description: año=1963
+
+
+
+# Franco, personas, daulin.com
+dn: uid=Franco,ou=personas,dc=daulin,dc=com
+objectClass: inetOrgPerson
+uid: Franco
+sn: Egidio Malerba
+cn: Franco
+l: Italia
+description: año=1944
+
+# Claude, personas, daulin.com
+dn: uid=Claude,ou=personas,dc=daulin,dc=com
+objectClass: inetOrgPerson
+uid: Claude
+sn: Nicollier
+cn: Claude
+l: Suiza
+description: año=1946
+
+#ROBOTS
+
+# El Buggy Lunar del Apolo 15, robots, daulin.com
+dn: uid=El Buggy Lunar del Apolo 15,ou=robots,dc=daulin,dc=com
+objectClass: inetOrgPerson
+sn: El Buggy Lunar del Apolo 15
+uid: El Buggy Lunar del Apolo 15
+cn: El Buggy Lunar del Apolo 15
+description: Vmax=0,6 km/h, Altura=1,5m, Energia= 90w
+
+
+# Sojourner, robots, daulin.com
+dn: uid=Sojourner,ou=robots,dc=daulin,dc=com
+objectClass: inetOrgPerson
+sn: Sojourner
+uid: Sojourner
+cn: Sojourner
+description: Vmax=0,13 km/h, Altura=1m, Energia= 120w
+
+
+
+# Rover Curiosity, robots, daulin.com
+dn: uid=Rover Curiosity,ou=robots,dc=daulin,dc=com
+objectClass: inetOrgPerson
+sn: Rover Curiosity
+uid: Rover Curiosity
+cn: Rover Curiosity
+description: Vmax=0,16 km/h, 1,77m, Energia= 130w
+
+
+
